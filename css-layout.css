@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.static-div {
+    position: static;
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.relative-div {
+    position: relative;
+    top: 10px;
+    background-color: lightgreen;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.absolute-div {
+    position: absolute;
+    right: 20px;
+    top: 150px; /* Adjust this value based on your needs */
+    background-color: lightcoral;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.fixed-div {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #000;
+}

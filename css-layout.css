@@ -1,41 +1,35 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.box1 {
+  background-color: blue;
+  width: 50%;
+  height: 50px;
+  border: 5px dashed blue;
+  margin-bottom: 10px;
+  /* position: static; */
+  /* position: fixed; */
+  position: sticky;
+  top: 0px;
 }
-
-.static-div {
-    position: static;
-    background-color: lightblue;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #000;
+.box2 {
+  background-color: white;
+  width: 50%;
+  height: 50px;
+  border: 5px dashed blue;
+  margin-bottom: 10px;
+  /* position: static; */
 }
-
-.relative-div {
-    position: relative;
-    top: 10px;
-    background-color: lightgreen;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #000;
+.box3 {
+  background-color: white;
+  width: 50%;
+  height: 50px;
+  border: 5px solid red;
+  margin-bottom: 10px;
+  /* position: relative; */
 }
-
-.absolute-div {
-    position: absolute;
-    right: 20px;
-    top: 150px; /* Adjust this value based on your needs */
-    background-color: lightcoral;
-    padding: 20px;
-    border: 1px solid #000;
-}
-
-.fixed-div {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: lightgoldenrodyellow;
-    padding: 20px;
-    text-align: center;
-    border-top: 1px solid #000;
+.box4 {
+  background-color: white;
+  width: 50%;
+  height: 50px;
+  border: 5px solid green;
+  background-color: yellow;
+  margin-bottom: 10px;
 }
